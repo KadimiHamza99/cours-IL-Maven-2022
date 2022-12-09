@@ -16,14 +16,14 @@
 
     <properties>
         <log4j.version>2.19.0</log4j.version>
-        <maven.compiler.source>12</maven.compiler.source>
-        <maven.compiler.target>12</maven.compiler.target>
-        <jdk.version>18</jdk.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <jdk.version>11</jdk.version>
     </properties>
 
     <reporting>
         <plugins>
-           <!--  <plugin>
+           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.2.0</version>
@@ -38,7 +38,7 @@
                     </sourceFileExcludes>
 
                 </configuration>
-            </plugin> -->
+            </plugin>
         </plugins>
     </reporting>
 
@@ -63,7 +63,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>1.8</version>
                 <executions>
                     <execution>
                         <id>createThriftDir</id>
