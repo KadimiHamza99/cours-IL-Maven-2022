@@ -23,7 +23,7 @@
 
     <reporting>
         <plugins>
-            <plugin>
+           <!--  <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.2.0</version>
@@ -38,7 +38,7 @@
                     </sourceFileExcludes>
 
                 </configuration>
-            </plugin>
+            </plugin> -->
         </plugins>
     </reporting>
 
